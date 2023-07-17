@@ -6,12 +6,11 @@
  *  SWC    : LED
  *
  */
- 
-#include <Util/delay.h>
-#include "C:\My-GitHub\AVR_ATMega32-Drivers\03-LIB\STD_TYPES.h"
-#include "C:\My-GitHub\AVR_ATMega32-Drivers\03-LIB\BIT_MATH.h"
+ #include <Util/delay.h>
+#include "..\..\AVR_ATMega32-Drivers\03-LIB\STD_TYPES.h"
+#include "..\..\AVR_ATMega32-Drivers\03-LIB\BIT_MATH.h"
 
-#include "C:\My-GitHub\AVR_ATMega32-Drivers\01-MCAL\01-DIO\DIO_interface.h"
+#include "..\..\AVR_ATMega32-Drivers\01-MCAL\01-DIO\DIO_interface.h"
 
 #include "LED_interface.h"
 
