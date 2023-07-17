@@ -1,0 +1,36 @@
+02:21:48 **** Incremental Build of configuration Debug for project 3-Shifting_Right_Every_250_ms ****
+make all 
+Building file: ../AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.d" -MT"AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.o" -c -o "AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.o" "../AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.c"
+In file included from ../AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.c
+ 
+Building target: 3-Shifting_Right_Every_250_ms.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Shifting_Right_Every_250_ms.map -mmcu=atmega32 -o "3-Shifting_Right_Every_250_ms.elf"  ./AVR_ATMega32-Drivers/02-HAL/01-LED/LED_program.o  ./AVR_ATMega32-Drivers/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 3-Shifting_Right_Every_250_ms.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Shifting_Right_Every_250_ms.elf  >"3-Shifting_Right_Every_250_ms.lss"
+Finished building: 3-Shifting_Right_Every_250_ms.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Shifting_Right_Every_250_ms.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8406 bytes (25.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+02:21:49 Build Finished (took 1s.121ms)
+

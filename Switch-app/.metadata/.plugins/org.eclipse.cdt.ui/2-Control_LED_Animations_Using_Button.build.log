@@ -1,0 +1,20 @@
+20:15:00 **** Incremental Build of configuration Debug for project 2-Control_LED_Animations_Using_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Control_LED_Animations_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10022 bytes (30.6% Full)
+(.text + .data + .bootloader)
+
+Data:         32 bytes (1.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+20:15:01 Build Finished (took 220ms)
+

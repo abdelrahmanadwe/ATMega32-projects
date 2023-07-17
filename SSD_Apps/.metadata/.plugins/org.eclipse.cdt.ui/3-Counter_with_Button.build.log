@@ -1,0 +1,20 @@
+01:07:54 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+01:07:55 Build Finished (took 383ms)
+

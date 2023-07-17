@@ -1,0 +1,20 @@
+01:07:54 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+01:07:54 Build Finished (took 448ms)
+

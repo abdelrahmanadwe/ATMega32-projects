@@ -1,0 +1,15 @@
+16:30:54 **** Rebuild of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^
+..\main.c: In function 'main':
+..\main.c:14:11: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int* p = 0x00274;
+           ^
+C:\Users\ABDALR~1\AppData\Local\Temp\cc2wkWP4.s: Assembler messages:
+C:\Users\ABDALR~1\AppData\Local\Temp\cc2wkWP4.s:16: Error: invalid instruction suffix for `push'
+
+16:30:56 Build Finished (took 1s.550ms)
+

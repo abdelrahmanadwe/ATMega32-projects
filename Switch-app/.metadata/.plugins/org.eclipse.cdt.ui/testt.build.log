@@ -1,0 +1,12 @@
+20:10:44 **** Incremental Build of configuration Debug for project testt ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+..\test.c: In function 'main':
+..\test.c:14:13: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int* ptr = 0x0f00f134;
+             ^
+C:\Users\ABDALR~1\AppData\Local\Temp\cc29gTAM.s: Assembler messages:
+C:\Users\ABDALR~1\AppData\Local\Temp\cc29gTAM.s:16: Error: invalid instruction suffix for `push'
+
+20:10:44 Build Finished (took 161ms)
+

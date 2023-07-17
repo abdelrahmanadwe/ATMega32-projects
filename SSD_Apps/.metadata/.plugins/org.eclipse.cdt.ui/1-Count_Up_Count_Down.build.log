@@ -1,0 +1,20 @@
+01:07:53 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+01:07:54 Build Finished (took 616ms)
+

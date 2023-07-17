@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 10, 2023
+ *  Author: AbdAlrahman Adwe Ali
+ *
+ */
+
+
+#include "C:\My-GitHub\AVR_ATMega32-Drivers\03-LIB\STD_TYPES.h"
+#include "C:\My-GitHub\AVR_ATMega32-Drivers\03-LIB\BIT_MATH.h"
+
+
+#include "C:\My-GitHub\AVR_ATMega32-Drivers\01-MCAL\01-DIO\DIO_interface.h"
+#include"C:\My-GitHub\AVR_ATMega32-Drivers\02-HAL\01-LED\LED_interface.h"
+
+void main()
+{
+
+	LED_voidPortInit (LED_PORTA );
+	while(1)
+	{
+
+		LED_voidFlashPort  ( LED_PORTA , 1 );
+
+	}
+
+}
+

@@ -1,0 +1,11 @@
+00:53:41 **** Rebuild of configuration Debug for project 5-multiplexing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SSD_program.o "..\\SSD_program.c" 
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s: Assembler messages:
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:26: Error: invalid instruction suffix for `push'
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:52: Error: invalid instruction suffix for `push'
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:120: Error: invalid instruction suffix for `push'
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:188: Error: invalid instruction suffix for `push'
+
+00:53:41 Build Finished (took 711ms)
+

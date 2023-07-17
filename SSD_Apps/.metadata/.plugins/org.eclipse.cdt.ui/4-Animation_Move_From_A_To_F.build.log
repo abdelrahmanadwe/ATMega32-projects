@@ -1,0 +1,20 @@
+01:07:55 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+01:07:56 Build Finished (took 354ms)
+

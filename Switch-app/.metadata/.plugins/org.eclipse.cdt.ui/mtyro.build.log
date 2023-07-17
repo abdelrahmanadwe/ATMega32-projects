@@ -1,0 +1,9 @@
+20:10:44 **** Incremental Build of configuration Debug for project mtyro ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[D:/Embedded Systems diploma/Tools/IMT_SDK_Win_64/jre/bin/server;D:/Embedded Systems diploma/Tools/IMT_SDK_Win_64/jre/bin;D:/Embedded Systems diploma/Tools/IMT_SDK_Win_64/jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;D:\Embedded Systems diploma\Embedded C course\projects1\mingw64\bin;C:\Users\AbdAlrahman\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\AbdAlrahman\gitkraken\bin;C:\Users\AbdAlrahman\AppData\Local\gitkraken\bin;D:\Embedded Systems diploma\Embedded C course\projects1\mingw64\bin;;D:\Embedded Systems diploma\Tools\IMT_SDK_Win_64]
+
+20:10:44 Build Finished (took 68ms)
+

@@ -1,0 +1,20 @@
+02:21:49 **** Incremental Build of configuration Debug for project 4-Two_Leds_Converging_Every_250_ms ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Two_Leds_Converging_Every_250_ms.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    8406 bytes (25.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+02:21:50 Build Finished (took 427ms)
+

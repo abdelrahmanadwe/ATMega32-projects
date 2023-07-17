@@ -1,0 +1,41 @@
+01:07:56 **** Incremental Build of configuration Debug for project 5-SSD__Multiplexing ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 5-SSD__Multiplexing.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,5-SSD__Multiplexing.map -mmcu=atmega32 -o "5-SSD__Multiplexing.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 5-SSD__Multiplexing.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 5-SSD__Multiplexing.elf  >"5-SSD__Multiplexing.lss"
+Finished building: 5-SSD__Multiplexing.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 5-SSD__Multiplexing.elf  "5-SSD__Multiplexing.hex"
+Finished building: 5-SSD__Multiplexing.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 5-SSD__Multiplexing.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7096 bytes (21.7% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+01:07:59 Build Finished (took 2s.388ms)
+

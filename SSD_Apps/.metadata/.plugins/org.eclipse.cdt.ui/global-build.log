@@ -1,0 +1,2509 @@
+18:59:35 **** Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Count_Up_Count_Down.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Count_Up_Count_Down.map -mmcu=atmega32 -o "1-Count_Up_Count_Down.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 1-Count_Up_Count_Down.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Count_Up_Count_Down.elf  >"1-Count_Up_Count_Down.lss"
+Finished building: 1-Count_Up_Count_Down.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6722 bytes (20.5% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:01:01 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Building target: 1-Count_Up_Count_Down.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Count_Up_Count_Down.map -mmcu=atmega32 -o "1-Count_Up_Count_Down.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 1-Count_Up_Count_Down.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Count_Up_Count_Down.elf  >"1-Count_Up_Count_Down.lss"
+Finished building: 1-Count_Up_Count_Down.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Count_Up_Count_Down.elf  "1-Count_Up_Count_Down.hex"
+Finished building: 1-Count_Up_Count_Down.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6722 bytes (20.5% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:06:05 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Count_Up_Count_Down.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Count_Up_Count_Down.map -mmcu=atmega32 -o "1-Count_Up_Count_Down.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 1-Count_Up_Count_Down.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Count_Up_Count_Down.elf  >"1-Count_Up_Count_Down.lss"
+Finished building: 1-Count_Up_Count_Down.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Count_Up_Count_Down.elf  "1-Count_Up_Count_Down.hex"
+Finished building: 1-Count_Up_Count_Down.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6722 bytes (20.5% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:07:41 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Count_Up_Count_Down.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Count_Up_Count_Down.map -mmcu=atmega32 -o "1-Count_Up_Count_Down.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 1-Count_Up_Count_Down.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Count_Up_Count_Down.elf  >"1-Count_Up_Count_Down.lss"
+Finished building: 1-Count_Up_Count_Down.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Count_Up_Count_Down.elf  "1-Count_Up_Count_Down.hex"
+Finished building: 1-Count_Up_Count_Down.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6722 bytes (20.5% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:12:41 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Count_Up_Count_Down.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Count_Up_Count_Down.map -mmcu=atmega32 -o "1-Count_Up_Count_Down.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 1-Count_Up_Count_Down.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Count_Up_Count_Down.elf  >"1-Count_Up_Count_Down.lss"
+Finished building: 1-Count_Up_Count_Down.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Count_Up_Count_Down.elf  "1-Count_Up_Count_Down.hex"
+Finished building: 1-Count_Up_Count_Down.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:59:57 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:59:57 **** Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SW_program.d" -MT"SW_program.o" -c -o "SW_program.o" "../SW_program.c"
+Finished building: ../SW_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:29: warning: comparison between pointer and integer
+../main.c:32: error: expected ';' before '}' token
+make: *** [main.o] Error 1
+20:01:00 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:01:01 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:32: error: expected ';' before '}' token
+make: *** [main.o] Error 1
+20:01:16 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:01:17 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3662 bytes (11.2% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:02:09 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:02:09 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3668 bytes (11.2% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:10:27 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:10:27 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3668 bytes (11.2% Full)
+(.text + .data + .bootloader)
+
+Data:         14 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:12:02 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:12:03 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6758 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:13:59 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:14:00 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:32: error: expected ')' before 'SW_u8GetPressed'
+make: *** [main.o] Error 1
+20:14:48 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:14:48 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:32: error: expected ')' before 'SW_u8GetPressed'
+../main.c:32: error: expected expression before '==' token
+../main.c:32: warning: type defaults to 'int' in declaration of 'type name'
+make: *** [main.o] Error 1
+20:14:59 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:15:00 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:32: error: expected expression before 'volatile'
+make: *** [main.o] Error 1
+20:15:56 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:15:56 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:32: error: expected expression before 'volatile'
+make: *** [main.o] Error 1
+20:16:39 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:16:40 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6758 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:17:46 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:17:46 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6758 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:18:24 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:18:24 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6758 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:19:17 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:19:18 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6758 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:32 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:20:33 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6758 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:23:16 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:23:17 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:25:49 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:25:50 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 3-Counter_with_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,3-Counter_with_Button.map -mmcu=atmega32 -o "3-Counter_with_Button.elf"  ./DIO_program.o ./SSD_program.o ./SW_program.o ./main.o   
+Finished building target: 3-Counter_with_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 3-Counter_with_Button.elf  >"3-Counter_with_Button.lss"
+Finished building: 3-Counter_with_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 3-Counter_with_Button.elf  "3-Counter_with_Button.hex"
+Finished building: 3-Counter_with_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:52:16 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:52:16 **** Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 2-Display_Numbers_To_99.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,2-Display_Numbers_To_99.map -mmcu=atmega32 -o "2-Display_Numbers_To_99.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 2-Display_Numbers_To_99.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 2-Display_Numbers_To_99.elf  >"2-Display_Numbers_To_99.lss"
+Finished building: 2-Display_Numbers_To_99.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 2-Display_Numbers_To_99.elf  "2-Display_Numbers_To_99.hex"
+Finished building: 2-Display_Numbers_To_99.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:52:18 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:20:43 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:20:44 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:20:45 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:20:45 **** Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:27: warning: implicit declaration of function 'SSD_voidMove'
+../main.c: At top level:
+../main.c:33: warning: conflicting types for 'SSD_voidMove'
+../main.c:27: warning: previous implicit declaration of 'SSD_voidMove' was here
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3438 bytes (10.5% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:22:32 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:22:33 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:22:33 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:22:33 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:27: warning: implicit declaration of function 'SSD_voidMoveLed'
+../main.c: At top level:
+../main.c:33: warning: conflicting types for 'SSD_voidMoveLed'
+../main.c:27: warning: previous implicit declaration of 'SSD_voidMoveLed' was here
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6534 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:27:46 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:27:46 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:27:47 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:27:47 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:27: warning: implicit declaration of function 'SSD_voidMoveLed'
+../main.c: At top level:
+../main.c:33: warning: conflicting types for 'SSD_voidMoveLed'
+../main.c:27: warning: previous implicit declaration of 'SSD_voidMoveLed' was here
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6534 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:30:31 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:30:31 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:30:31 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:30:32 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:26: warning: implicit declaration of function 'SSD_voidMoveLed'
+../main.c: At top level:
+../main.c:32: warning: conflicting types for 'SSD_voidMoveLed'
+../main.c:26: warning: previous implicit declaration of 'SSD_voidMoveLed' was here
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:31:24 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:31:25 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:31:25 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:31:25 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:21: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:19 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:19 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:20 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:20 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:21: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:46 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:46 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:47 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:35:47 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:21: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:12 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:13 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:13 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:13 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:21: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:38 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:39 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:39 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:37:39 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:21: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3422 bytes (10.4% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:38:39 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:38:40 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6546 bytes (20.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:38:40 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:38:40 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:21: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 4-Animation_Move_From_A_To_F.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,4-Animation_Move_From_A_To_F.map -mmcu=atmega32 -o "4-Animation_Move_From_A_To_F.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 4-Animation_Move_From_A_To_F.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 4-Animation_Move_From_A_To_F.elf  >"4-Animation_Move_From_A_To_F.lss"
+Finished building: 4-Animation_Move_From_A_To_F.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 4-Animation_Move_From_A_To_F.elf  "4-Animation_Move_From_A_To_F.hex"
+Finished building: 4-Animation_Move_From_A_To_F.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:17 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:22 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 2-Display_Numbers_To_99.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,2-Display_Numbers_To_99.map -mmcu=atmega32 -o "2-Display_Numbers_To_99.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 2-Display_Numbers_To_99.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 2-Display_Numbers_To_99.elf  >"2-Display_Numbers_To_99.lss"
+Finished building: 2-Display_Numbers_To_99.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 2-Display_Numbers_To_99.elf  "2-Display_Numbers_To_99.hex"
+Finished building: 2-Display_Numbers_To_99.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:26 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:14:27 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:15:21 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:15:21 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Building target: 2-Display_Numbers_To_99.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,2-Display_Numbers_To_99.map -mmcu=atmega32 -o "2-Display_Numbers_To_99.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 2-Display_Numbers_To_99.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 2-Display_Numbers_To_99.elf  >"2-Display_Numbers_To_99.lss"
+Finished building: 2-Display_Numbers_To_99.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 2-Display_Numbers_To_99.elf  "2-Display_Numbers_To_99.hex"
+Finished building: 2-Display_Numbers_To_99.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:15:22 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:15:23 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:56 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:57 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 2-Display_Numbers_To_99.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,2-Display_Numbers_To_99.map -mmcu=atmega32 -o "2-Display_Numbers_To_99.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 2-Display_Numbers_To_99.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 2-Display_Numbers_To_99.elf  >"2-Display_Numbers_To_99.lss"
+Finished building: 2-Display_Numbers_To_99.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 2-Display_Numbers_To_99.elf  "2-Display_Numbers_To_99.hex"
+Finished building: 2-Display_Numbers_To_99.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:59 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:17:59 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:53:38 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:53:39 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:53:39 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:53:40 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:53:41 **** Rebuild of configuration Debug for project 5-multiplexing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o SSD_program.o "..\\SSD_program.c" 
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s: Assembler messages:
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:26: Error: invalid instruction suffix for `push'
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:52: Error: invalid instruction suffix for `push'
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:120: Error: invalid instruction suffix for `push'
+C:\Users\ABDALR~1\AppData\Local\Temp\ccTkZ27n.s:188: Error: invalid instruction suffix for `push'
+01:05:03 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:05:04 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:05:05 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:05:05 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:05:06 **** Build of configuration Debug for project 5-SSD__Multiplexing ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 5-SSD__Multiplexing.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,5-SSD__Multiplexing.map -mmcu=atmega32 -o "5-SSD__Multiplexing.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 5-SSD__Multiplexing.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 5-SSD__Multiplexing.elf  >"5-SSD__Multiplexing.lss"
+Finished building: 5-SSD__Multiplexing.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 5-SSD__Multiplexing.elf  "5-SSD__Multiplexing.hex"
+Finished building: 5-SSD__Multiplexing.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 5-SSD__Multiplexing.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6868 bytes (21.0% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:53 **** Incremental Build of configuration Debug for project 1-Count_Up_Count_Down ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Count_Up_Count_Down.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6734 bytes (20.6% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:54 **** Incremental Build of configuration Debug for project 2-Display_Numbers_To_99 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 2-Display_Numbers_To_99.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6578 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:54 **** Incremental Build of configuration Debug for project 3-Counter_with_Button ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 3-Counter_with_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6776 bytes (20.7% Full)
+(.text + .data + .bootloader)
+
+Data:         22 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:55 **** Incremental Build of configuration Debug for project 4-Animation_Move_From_A_To_F ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 4-Animation_Move_From_A_To_F.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6518 bytes (19.9% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:56 **** Incremental Build of configuration Debug for project 5-SSD__Multiplexing ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 5-SSD__Multiplexing.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,5-SSD__Multiplexing.map -mmcu=atmega32 -o "5-SSD__Multiplexing.elf"  ./DIO_program.o ./SSD_program.o ./main.o   
+Finished building target: 5-SSD__Multiplexing.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 5-SSD__Multiplexing.elf  >"5-SSD__Multiplexing.lss"
+Finished building: 5-SSD__Multiplexing.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 5-SSD__Multiplexing.elf  "5-SSD__Multiplexing.hex"
+Finished building: 5-SSD__Multiplexing.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 5-SSD__Multiplexing.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7096 bytes (21.7% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

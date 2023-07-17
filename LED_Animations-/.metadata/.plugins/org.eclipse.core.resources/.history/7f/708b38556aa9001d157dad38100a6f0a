@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 10, 2023
+ *      Author: AbdAlrahman
+ */
+
+#include"LED_interface.h"
+
+void main()
+{
+
+	LED_voidPortInit(LED_PORTA);
+
+	while(1)
+	{
+
+		LED_voidFlashPort(LED_PORTA , 1000);
+	}
+
+
+}
+
