@@ -7,8 +7,8 @@
  *
  */
 
-#include "C:\My-GitHub\AVR_ATMega32-Drivers\03-LIB\BIT_MATH.h"
-#include "C:\My-GitHub\AVR_ATMega32-Drivers\03-LIB\STD_TYPES.h"
+#include "..\..\AVR_ATMega32-Drivers\03-LIB\BIT_MATH.h"
+#include "..\..\AVR_ATMega32-Drivers\03-LIB\STD_TYPES.h"
 
 #include "DIO_interface.h"
 #include "DIO_private.h"
