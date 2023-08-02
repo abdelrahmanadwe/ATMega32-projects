@@ -1,0 +1,79 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 31, 2023
+ *      Author: AbdAlrahman
+ */
+
+#include <Util\delay.h>
+
+#include"00-ATMEGA32-COTS\03-LIB\BIT_MATH.h"
+#include"00-ATMEGA32-COTS\03-LIB\STD_TYPES.h"
+
+#include"00-ATMEGA32-COTS\01-MCAL\01-DIO\DIO_interface.h"
+#include"00-ATMEGA32-COTS\01-MCAL\05-TIMER\TIMER_interface.h"
+
+#include"00-ATMEGA32-COTS\02-HAL\02-SSD\SSD_interface.h"
+
+#define SREG *((volatile u8 *)0x5F)
+
+
+SSD_Data SSD_1 = {SSD_COMMON_CATHODE,SSD_PORTA,SSD_PORTC,SSD_PIN0};
+SSD_Data SSD_2 = {SSD_COMMON_CATHODE,SSD_PORTA,SSD_PORTC,SSD_PIN1};
+
+volatile u8 SSD_var1 = 1;
+volatile u8 SSD_var2 = 9;
+
+volatile u16 counter=0;
+
+void Init_App();
+void ISR();
+void main()
+{
+	Init_App();
+
+	while(1)
+	{
+		SSD_voidEnable (SSD_1);
+		SSD_voidDisable(SSD_2);
+		SSD_voidSendNumber (SSD_1 , SSD_var1 );
+		_delay_ms(50);
+
+		SSD_voidEnable (SSD_2);
+		SSD_voidDisable(SSD_1);
+		SSD_voidSendNumber (SSD_2 , SSD_var2 );
+		_delay_ms(50);
+
+	}
+
+
+}
+void Init_App()
+{
+
+	SSD_voidInit (SSD_1);
+	SSD_voidInit (SSD_2);
+
+	TIMER0_voidInit();
+    TIMER_u8SetCallBack(ISR ,TIMER0_CTC_VECTOR_ID);
+
+    SET_BIT(SREG,7);
+}
+
+void ISR()
+{
+
+	counter++;
+	if(counter == 1000)
+	{
+
+		 counter = 0;
+		 SSD_var1++;
+		 SSD_var2--;
+		 if((SSD_var1 == 9))
+		 {
+			 SSD_var1 = 1;
+			 SSD_var2 = 9;
+		 }
+	}
+}

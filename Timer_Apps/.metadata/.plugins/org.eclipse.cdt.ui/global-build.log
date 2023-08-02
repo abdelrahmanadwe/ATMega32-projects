@@ -1,0 +1,2016 @@
+03:44:34 **** Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.d" -MT"00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o" -c -o "00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o" "../00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.c"
+In file included from ../00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.d" -MT"00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o" -c -o "00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o" "../00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.c"
+In file included from ../00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.c:11:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.c:18:
+../00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_interface.h:13:25: warning: extra tokens at end of #include directive
+Finished building: ../00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.d" -MT"00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o" -c -o "00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o" "../00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.c"
+Finished building: ../00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.d" -MT"00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o" -c -o "00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o" "../00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.c"
+Finished building: ../00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.d" -MT"00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o" -c -o "00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o" "../00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.c"
+In file included from ../00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.d" -MT"00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o" -c -o "00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o" "../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c"
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:10:23: error: STD_TYPES.h: No such file or directory
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:11:22: error: BIT_MATH.h: No such file or directory
+In file included from ../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:13:
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:29: error: expected ')' before 'Copy_u8Preload'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:30: error: expected ')' before 'Copy_u8CTC'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:31: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER0_u8GetTimerCounterValue'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:34: error: expected ')' before 'Copy_u8Preload'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:35: error: expected ')' before 'Copy_u8CTC'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:36: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER2_u8GetTimerCounterValue'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_interface.h:38: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER_u8SetCallBack'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c: In function 'TIMER0_voidInit':
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: warning: implicit declaration of function 'SET_BIT'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: warning: implicit declaration of function 'CLR_BIT'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:54: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:57: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:57: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:57: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:66: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:66: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:66: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:81: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:81: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:81: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:82: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:82: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:82: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c: In function 'TIMER2_voidInit':
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:116: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:116: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:116: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:116: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:116: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:116: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:119: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:119: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:119: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:128: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:128: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:128: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:143: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:143: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:143: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:144: error: expected ')' before 'u8'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:144: warning: type defaults to 'int' in declaration of 'type name'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:144: error: invalid type argument of 'unary *' (have 'int')
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c: At top level:
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:147: error: expected ')' before 'Copy_u8Preload'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:153: error: expected ')' before 'Copy_u8Preload'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:158: error: expected ')' before 'Copy_u8CTC'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:163: error: expected ')' before 'Copy_u8CTC'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:168: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER0_u8GetTimerCounterValue'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:173: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER2_u8GetTimerCounterValue'
+../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c:180: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'TIMER_u8SetCallBack'
+make: *** [00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o] Error 1
+03:46:39 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.d" -MT"00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o" -c -o "00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o" "../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c"
+Finished building: ../00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.d" -MT"00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o" -c -o "00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o" "../00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.c"
+../00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.c: In function 'ADC_u8GetResultSync':
+../00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.c:267: warning: suggest parentheses around comparison in operand of &
+Finished building: ../00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.d" -MT"00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o" -c -o "00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o" "../00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.c"
+Finished building: ../00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.d" -MT"00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o" -c -o "00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o" "../00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.c"
+Finished building: ../00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.c
+ 
+Building file: ../00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.d" -MT"00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o" -c -o "00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o" "../00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.c"
+Finished building: ../00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+../main.c: In function 'Init_App':
+../main.c:55: error: 'ISR' undeclared (first use in this function)
+../main.c:55: error: (Each undeclared identifier is reported only once
+../main.c:55: error: for each function it appears in.)
+make: *** [main.o] Error 1
+03:47:46 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15448 bytes (47.1% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:00:19 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15448 bytes (47.1% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:12:12 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:12:52 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:14:39 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:15:54 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:16:44 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:17:32 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:18:16 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:21:21 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:47 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:23:23 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15468 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:25:18 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15516 bytes (47.4% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:25:27 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:26:53 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:06:41 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15022 bytes (45.8% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:08:08 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:09:05 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:10:33 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:12:17 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:12:50 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:13:26 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15022 bytes (45.8% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:14:24 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15262 bytes (46.6% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:16:04 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15022 bytes (45.8% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:17:18 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15022 bytes (45.8% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:19:18 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:19:57 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:21:55 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15490 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:23:32 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15508 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:23:47 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15508 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:25:24 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15508 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:26:29 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15508 bytes (47.3% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:32:13 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:34:37 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:35:30 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:35:52 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:38:36 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:39:27 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:40:04 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:41:18 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:42:34 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:43:20 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:44:16 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15460 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:45:12 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:45:22 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:46:04 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:46:56 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:47:20 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:48:16 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+18:49:08 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:8:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:31: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-SSD_Multiplexing_With_Timer.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
+Finished building target: 1-SSD_Multiplexing_With_Timer.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
+Finished building: 1-SSD_Multiplexing_With_Timer.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
+Finished building: 1-SSD_Multiplexing_With_Timer.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   15462 bytes (47.2% Full)
+(.text + .data + .bootloader)
+
+Data:        159 bytes (7.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
