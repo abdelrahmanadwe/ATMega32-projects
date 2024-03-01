@@ -1,0 +1,15 @@
+22:00:23 **** Build of configuration Debug for project jhkh ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: jhkh.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,jhkh.map -mmcu=atmega32 -o "jhkh.elf"  ./main.o   
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [jhkh.elf] Error 1
+
+22:00:24 Build Finished (took 969ms)
+

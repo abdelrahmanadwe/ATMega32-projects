@@ -1,26 +1,5 @@
-18:49:08 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
+04:30:21 **** Incremental Build of configuration Debug for project 1-SSD_Multiplexing_With_Timer ****
 make all 
-Building file: ../main.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
-In file included from ../main.c:8:
-d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util\delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../main.c:31: warning: return type of 'main' is not 'int'
-Finished building: ../main.c
- 
-Building target: 1-SSD_Multiplexing_With_Timer.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,1-SSD_Multiplexing_With_Timer.map -mmcu=atmega32 -o "1-SSD_Multiplexing_With_Timer.elf"  ./00-ATMEGA32-COTS/02-HAL/05-KPD/KPD_program.o  ./00-ATMEGA32-COTS/02-HAL/04-CLCD/CLCD_program.o  ./00-ATMEGA32-COTS/02-HAL/03-SW/SW_program.o  ./00-ATMEGA32-COTS/02-HAL/02-SSD/SSD_program.o  ./00-ATMEGA32-COTS/02-HAL/01-LED/LED_program.o  ./00-ATMEGA32-COTS/01-MCAL/05-TIMER/TIMER_program.o  ./00-ATMEGA32-COTS/01-MCAL/04-ADC/ADC_program.o  ./00-ATMEGA32-COTS/01-MCAL/03-PORT/PORT_program.o  ./00-ATMEGA32-COTS/01-MCAL/02-EXTI/EXTI_program.o  ./00-ATMEGA32-COTS/01-MCAL/01-DIO/DIO_program.o  ./main.o   
-Finished building target: 1-SSD_Multiplexing_With_Timer.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S 1-SSD_Multiplexing_With_Timer.elf  >"1-SSD_Multiplexing_With_Timer.lss"
-Finished building: 1-SSD_Multiplexing_With_Timer.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-SSD_Multiplexing_With_Timer.elf  "1-SSD_Multiplexing_With_Timer.hex"
-Finished building: 1-SSD_Multiplexing_With_Timer.hex
- 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 1-SSD_Multiplexing_With_Timer.elf
 AVR Memory Usage
@@ -37,5 +16,5 @@ Data:        159 bytes (7.8% Full)
 Finished building: sizedummy
  
 
-18:49:09 Build Finished (took 848ms)
+04:30:22 Build Finished (took 481ms)
 

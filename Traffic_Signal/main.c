@@ -48,8 +48,7 @@ void main()
 
 void Init_App()
 {
-	/* open the GIE */
-	SET_BIT(SREG,7);
+	
 
 	/*init the leds */
 	LED_voidInit        ( LED_Green  );
@@ -66,6 +65,9 @@ void Init_App()
     SSD_voidEnable (SSD_Counter );
 
     mode = Normal_Mode;
+	
+	/* open the GIE */
+	SET_BIT(SREG,7);
 }
 
 

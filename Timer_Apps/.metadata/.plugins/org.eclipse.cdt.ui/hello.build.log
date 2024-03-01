@@ -1,0 +1,8 @@
+04:30:22 **** Incremental Build of configuration Debug for project hello ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hello.o" "..\\src\\hello.c" 
+C:\Users\ABDALR~1\AppData\Local\Temp\ccwm220O.s: Assembler messages:
+C:\Users\ABDALR~1\AppData\Local\Temp\ccwm220O.s:16: Error: invalid instruction suffix for `push'
+
+04:30:22 Build Finished (took 279ms)
+
